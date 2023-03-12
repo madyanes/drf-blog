@@ -7,3 +7,6 @@ class Post(BaseModels.BaseModel):
 
     def __str__(self):
         return f'{ self.id } { self.title }'
+
+    class Meta:
+        ordering = ('-id',)
