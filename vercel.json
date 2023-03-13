@@ -23,7 +23,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "backend/wsgi.py"
+      "dest": "blog/wsgi.py"
     }
   ]
 }
