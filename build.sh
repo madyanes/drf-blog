@@ -2,8 +2,7 @@
 
 # Build the project
 echo "Building the project..."
-pipenv shell
-pipenv install
+python -m pip install -r requirements.txt
 
 echo "Make migration..."
 python manage.py makemigrations --noinput
